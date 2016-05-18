@@ -2,8 +2,8 @@ import pygame
 
 screen = pygame.display.set_mode((800,600))
 clock = pygame.time.Clock()
-photo = pygame.image.load('test.jpg').convert_alpha()
-photo2 = pygame.image.load('test2.jpg').convert_alpha()
+photo = pygame.image.load('default.png').convert_alpha()
+photo2 = pygame.image.load('default2.png').convert_alpha()
 album = [photo, photo2]
 index = 0
 timer = 0.0
